@@ -1451,7 +1451,10 @@ header {
       p {
         font-family: 'Parag2';
         font-size: var(--txt-paragraph);
-        margin-top: 5px;
+        
+       
+        
+       
       }
 
       iframe {
@@ -1489,6 +1492,7 @@ footer {
           font-size: 15px;
           margin: 15px;
           cursor: pointer;
+          
         }
       }
     }
@@ -1497,7 +1501,7 @@ footer {
   .line {
     border-top: 1px solid var(--clr-subtitle);
     width: 90%;
-    max-width: 500px;
+    max-width: 600px;
     margin: 15px;
   }
 
