@@ -21,7 +21,7 @@ body {
 
 @font-face {
   font-family: 'Title';
-  src: url(../font/DevilCandleTitle.otf);
+  src: url(../font/Pixiel.ttf);
 }
 
 @font-face {
@@ -57,7 +57,6 @@ body {
   --clr-dark-purple: #17002b;
   --clr-transparent-purple: #8216DD25;
   --clr-transparent-pink: #CF2DF430;
-
   --clr-base: #333333;
   --clr-black: #000000;
   --clr-title: #6c0086;
@@ -77,7 +76,7 @@ body {
 
 /*sizes*/
 :root {
-  --txt-title: 3.5rem;
+  --txt-title: 4rem;
   --txt-subtitle: 1.5rem;
   --txt-paragraph: 1.5rem;
   --txt-anchor: .8rem;
@@ -97,6 +96,7 @@ h1 {
   color: var(--clr-title);
   font-size: var(--txt-title);
   font-family: 'Title';
+  
 
   & span {
     font-family: 'Title';
@@ -129,8 +129,9 @@ i {
   border-radius: 5px;
   font-size: var(--txt-anchor);
   color: var(--clr-white);
-  padding: 1em 2em;
+  padding: 1em 2em ;
   transition: all .3s;
+  margin-inline: 10px;
 
   &:hover {
     background: var(--clr-gradient2);
@@ -158,7 +159,7 @@ header {
 
   .logoMobile {
     width: 150px;
-    margin-left: 50px;
+    margin-left: 40px;
     transition: .8s;
     cursor: pointer;
 
@@ -179,7 +180,7 @@ header {
     gap: 2rem;
 
     & .menu {
-      width: 50%;
+      width: 60%;
       padding: 1rem;
       display: flex;
       justify-content: space-around;
@@ -196,12 +197,12 @@ header {
         cursor: pointer;
         margin-left: 4rem;
         z-index: 1;
-        width: 45px;
+        width: 35px;
 
         &:hover {
           opacity: 1;
-          transform: scale(1.4);
-          filter: drop-shadow(0 0 10px var(--clr-hover));
+          transform: scale(1);
+          filter: drop-shadow(0 0 1px var(--clr-hover));
         }
       }
     }
@@ -216,7 +217,7 @@ header {
 
 
         & a {
-          color: var(--clr-white);
+          color: var(--clr-accent);
           cursor: pointer;
           opacity: .9;
 
@@ -346,7 +347,7 @@ header {
 
 
 #banner {
-  background: url('../img/BANNERNOVO.png');
+  background: url('../img/222.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -356,13 +357,13 @@ header {
     position: absolute;
     top: 2rem;
     left: 2rem;
-    color: var(--clr-title);
-    font-size: var(--txt-title);
+    color: var(--clr-white);
+    font-size: var();
     text-align: left;
     padding: 20rem;
 
     span {
-      color: var(--clr-accent);
+      color: var(--clr-white);
     }
    
   }
@@ -393,12 +394,12 @@ header {
       }
 
       h1 {
-        color: var(--clr-title);
+        color: var(--clr-white);
         font-size: var(--txt-title);
 
 
         span {
-          color: var(--clr-accent);
+          color: var(--clr-white);
         }
       }
 
@@ -425,11 +426,13 @@ header {
       .btnDefault {
         background: var(--clr-accent);
         color: var(--clr-white);
-        padding: 3rem 3rem;
-        border-radius: 5px;
+        padding: 5rem 5rem 5rem;
+        border-radius: 10px;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 2rem;
         transition: 0.3s;
+        justify-content: center;
+
 
         &:hover {
           background: var(--clr-hover);
@@ -443,7 +446,7 @@ header {
 }
 
 .mouse{
-  width: 50px;
+  width: 450px;
   height: auto;
   text-align: center;
      
@@ -1258,7 +1261,7 @@ header {
 
 #projetos {
   height: 100vh;
-  /* padding-top: 6vh; */
+  padding-top: 6vh;
   /* Garante que o conteúdo não fique atrás do menu */
 
   .portfolio {
@@ -1467,7 +1470,7 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
 
 
   .footerContainer {
