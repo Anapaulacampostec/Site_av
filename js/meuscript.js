@@ -70,6 +70,20 @@ function menuOnClick() {
     }
 }
 
+//EFEITO PARA O NOME 
+const texto = "ANA PAULA CAMPOS";
+let i = 0;
+function typeWriter() {
+  if (i < texto.length) {
+    document.getElementById("texto").innerHTML += texto.charAt(i);
+    i++;
+    setTimeout(typeWriter, 50); // Velocidade de digitação
+  }
+}
+typeWriter();
+
+
+
 //portfolio
 const cards = document.querySelectorAll('.card');
 let currentIndex = 0;
