@@ -13,9 +13,8 @@ Site estático desenvolvido em HTML, CSS e JavaScript. Projeto pessoal/avaliativ
 
 ## 🖼️ Exemplo visual
 
-![Exemplo do site](https://anapaulacampostec.github.io/Site_av/assets/site_av.png)
+![Exemplo do site](https://github.com/Anapaulacampostec/Site_av/blob/main/assets/site_av.png)
 
-> 💡 *Adicione uma imagem chamada `exemplo.png` na pasta `assets/` com um print da home do site.*
 
 ## ✨ Funcionalidades
 
